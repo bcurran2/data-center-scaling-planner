@@ -26,6 +26,12 @@ jupyter notebook dc_scaling_planner.ipynb
 | 7 | Checks against published numbers |
 | 8 | Limits and the full source list |
 
+## Validation
+
+Section 7 re-derives numbers the source papers report. Each bar shows how much of its allowed tolerance a check used; anything under 100% passes.
+
+![Checks against published numbers](images/validation_checks.png)
+
 ## Caveats
 
 This is a planning calculator, not a forecast. The default run sizes extrapolate a historical trend, and the default power schedule is an example. See Section 8 of the notebook.
