@@ -3,6 +3,8 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bcurran2/data-center-scaling-planner/blob/main/dc_scaling_planner.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bcurran2/data-center-scaling-planner/main?labpath=dc_scaling_planner.ipynb)
 
+**[Try the calculator](https://bcurran2.github.io/planner/)**: enter a GPU count, state, and electricity rate and see the power, cost, and largest training run. No install needed.
+
 A Jupyter notebook that converts a planned AI training run (in FLOP) into what a data center planner has to line up: accelerators, IT and facility megawatts, energy, and capital cost. It then lays those out year by year against your power availability, which shows when you need to file for grid interconnection and when you need to start construction.
 
 The notebook is built on the scaling-law papers [Kaplan et al. 2020](https://arxiv.org/abs/2001.08361) and [Hoffmann et al. 2022 ("Chinchilla")](https://arxiv.org/abs/2203.15556). Hardware, facility, and price defaults come from published sources, and each one is cited in the notebook.
