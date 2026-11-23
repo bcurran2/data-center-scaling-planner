@@ -56,3 +56,7 @@ Section 7 re-derives numbers the source papers report. Each bar shows how much o
 ## Caveats
 
 This is a planning calculator, not a forecast. The default run sizes extrapolate a historical trend, and the default power schedule is an example. See Section 8 of the notebook.
+
+## Sources
+
+The method follows [Kaplan et al. 2020](https://arxiv.org/abs/2001.08361) and [Hoffmann et al. 2022](https://arxiv.org/abs/2203.15556). Training efficiency figures come from Meta's [Llama 3 paper](https://arxiv.org/abs/2407.21783). Hardware, facility, and price defaults come from NVIDIA, Vertiv, Uptime Institute, Cushman & Wakefield, and the U.S. EIA. The full list, with a link for each value, is in Section 8 of the notebook.
